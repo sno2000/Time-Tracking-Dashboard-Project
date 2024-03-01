@@ -5,9 +5,8 @@
 }
 body {
   display: flex;
-  justify-content: left;
-  justify-content: right;
-  justify-content: center;
+  flex-direction: column;
+  align-self: center;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -22,13 +21,10 @@ main {
 }
 
 .Jeremyinfo {
-  z-index: 2;
-  position: absolute;
   display: flex;
   justify-content: center;
-  left: 165px;
-  width: 255px;
-  height: 400px;
+  width: 100%;
+  height: 360px;
   top: 256px;
   background-color: #5747ea;
   border-radius: 20px;
@@ -74,12 +70,40 @@ main {
   word-spacing: 1px;
 }
 .TimeDWM {
-  position: relative;
   display: flex;
-  justify-content: center;
-  background-color: white;
-  left: -160px;
-  width: 455px;
-  height: 623px;
-  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #1c204b;
+  width: 255px;
+  height: 518px;
+  margin-left: -800px;
+  margin-top: 200px;
+}
+.TimeDWM ul {
+  list-style-type: none;
+}
+li:nth-child(1) {
+  font-size: 18px;
+  color: #7078c9;
+  width: 41px;
+  height: 21px;
+  margin-left: -100px;
+  margin-top: 20px;
+}
+li:nth-child(2) {
+  font-size: 18px;
+  color: #ffff;
+  width: 41px;
+  height: 21px;
+  margin-left: -100px;
+  margin-top: 20px;
+}
+li:nth-child(3) {
+  font-size: 18px;
+  color: #7078c9;
+  width: 41px;
+  height: 21px;
+  margin-left: -100px;
+  margin-top: 20px;
 }
