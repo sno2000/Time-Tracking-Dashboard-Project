@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
+  font-family: "Rubik", sans-serif !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -106,4 +108,70 @@ li:nth-child(3) {
   height: 21px;
   margin-left: -100px;
   margin-top: 20px;
+}
+.YellowBackround {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 203px;
+  width: 255px;
+  height: 200px;
+  background-color: #ff8b64;
+  border-radius: 20px;
+}
+.YellowBackround img {
+  position: relative;
+  display: flex;
+  object-fit: contain;
+  width: 85px;
+  height: 75px;
+  margin-left: 140px;
+}
+.YellowBackround .Workinfo {
+  position: absolute;
+  flex-direction: column;
+  gap: 30px;
+  padding: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 255px;
+  height: 200px;
+  background-color: #1c204b;
+  border-radius: 20px;
+  top: 40px;
+}
+.Workinfo h2 {
+  font-size: 18px;
+  color: white;
+}
+.Workinfo h3 {
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+}
+.Workinfo h4 {
+  gap: 0px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: white;
+}
+.TextTime {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.TextTime h4 {
+  font-w: normal;
+  color: #bbc0ff;
+}
+.Textwork {
+  color: #d8d8d8;
+  font-size: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
